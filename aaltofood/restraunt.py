@@ -16,20 +16,12 @@ class Restaurant(object):
         self.url = url
 
     def get_menu(self, date: str):
-        """Getting the menu from API. This should be implemented by base class
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        raise NotImplementedError
+        """Getting the menu from API. This should be implemented by base class"""
+        pass
 
     def get_today_menu(self):
-        """Return today menu to view
-
-        Raises:
-            NotImplementedError: _description_
-        """
-        raise NotImplementedError
+        """Return today menu to view"""
+        pass
 
     def parse_menu(self, menu_dict: dict):
         """parse the response to list of courses
@@ -37,10 +29,8 @@ class Restaurant(object):
         Args:
             menu_dict (dict): response
 
-        Raises:
-            NotImplementedError: return list of courses name
         """
-        raise NotImplementedError
+        pass
 
     def __repr__(self) -> str:
         return f"{self.name} locate at {self.location}"
