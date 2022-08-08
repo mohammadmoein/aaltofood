@@ -3,7 +3,7 @@ name = "aaltofood"
 version = "0.1.0"
 description = ""
 authors = ["Mohammad Moein <mohammad.moein@tutanota.com>"]
-
+readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 rich = "^12.5.1"
