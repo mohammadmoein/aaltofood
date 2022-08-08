@@ -8,6 +8,7 @@ authors = ["Mohammad Moein <mohammad.moein@tutanota.com>"]
 python = "^3.9"
 rich = "^12.5.1"
 PyQt6 = "^6"
+loguru = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
